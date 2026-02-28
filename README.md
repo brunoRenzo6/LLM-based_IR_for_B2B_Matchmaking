@@ -1,4 +1,4 @@
-# LLM-based_IR_for_B2B_Matchmaking
+# LLM-based Information Retrieval for B2B Matchmaking
 
 https://github.com/user-attachments/assets/4f3b68d8-f1a6-48b1-9e48-473273ec901d
 
