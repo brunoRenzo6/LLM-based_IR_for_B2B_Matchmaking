@@ -14,7 +14,8 @@ LLM-based_IR_for_B2B_Matchmaking/
 ├── llm_eval.py             # LLM relevance grading chain
 ├── reranker.py             # Grade-based re-ranking
 ├── snippet_summarizer.py   # LLM snippet summarization + markdown link injection
-└── pipeline.py             # End-to-end orchestration (L_0 → L_1 → L_2 → L_3)
+├── pipeline.py             # End-to-end orchestration (L_0 → L_1 → L_2 → L_3)
+└── streamlit_app.py        # quick app to demo the ranking system
 ```
 
 ## Pipeline Stages
