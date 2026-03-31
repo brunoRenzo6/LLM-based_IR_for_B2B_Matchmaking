@@ -103,11 +103,12 @@ def run_stage_l1(
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = {}
         for pid in ranking:
+            project_desc = ds.get_project_desc(pid)
             for rec in list(ranking[pid].keys())[:TOP_K_0]:
                 fut = executor.submit(
                     grade_ranking_entry,
                     model, prompts, ranking, pid, rec,
-                    ds.get_project_desc(pid),
+                    project_desc,
                     ds.id_lookup_new, exceptions,
                 )
                 futures[fut] = (pid, rec)

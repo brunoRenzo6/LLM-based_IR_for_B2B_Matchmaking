@@ -45,7 +45,7 @@ def get_lower_cut(
     while n_unique < min_unique_docs:
         if mode == "zscore":
             filtered = df.filter(pl.col("cos_sim_zscore") > z_threshold)
-            lower_cut = filtered.select(pl.col("cos_sim").min()).item() if filtered.height > 0 else 0.0
+            lower_cut = filtered.select(pl.col("cos_sim").min()).item()
         else:  # margin
             max_sim = df.select(pl.col("cos_sim").max()).item()
             lower_cut = max_sim - margin
