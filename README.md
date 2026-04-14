@@ -8,7 +8,9 @@ In parternship w/: [MatchIT](https://site.matchit.com.br/)
 
 
 Demo of a B2B Matchmaking application built using the LLM-based IR architecture proposed in our dissertation and article:
+
 https://github.com/user-attachments/assets/dd303443-931a-4b6c-9530-92b1317c218f
+
 (Note that the “summarizing snippets” process is not based on the project description, but only on the seller snippets. This way we avoid the summaries being biased towards the project descriptions and indeed present reliable summaries of the sellers.)
 
 
