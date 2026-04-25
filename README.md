@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/dd303443-931a-4b6c-9530-92b1317c218f
 
 (Note that the “summarizing snippets” process is not based on the project description, but only on the seller snippets. This way we avoid the summaries being biased towards the project descriptions and indeed present reliable summaries of the sellers.)
 
-
+This repo is an AI refactored version of the raw code used during the research (which was distributed in many .ipynb files, in fact)
 
 
 
